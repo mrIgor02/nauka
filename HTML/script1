@@ -1,8 +1,18 @@
 <p id="wynik"></p>
 <script>
     var wypisz=document.getElementById("wynik");
+    var a=10;
+    var b=7;
     wypisz.innerHTML="cos";
     wypisz.innerHTML+="drugi napis";
+    wypisz.innerHTML+="<br>";
+    wypisz.innerHTML+="a = "+a;
+    wypisz.innerHTML+="<br>";
+    wypisz.innerHTML+="b = "+b;
+    wypisz.innerHTML+="<br>";
+    wypisz.innerHTML+="a + b = "+a+b;
+    wypisz.innerHTML+="<br>";
+    wypisz.innerHTML+="a - b = "+a-b;
 
 
 
