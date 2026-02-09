@@ -3,6 +3,8 @@
     var wypisz=document.getElementById("wynik");
     var a=10;
     var b=7;
+    var c="napisz";
+    var d="równanie";
     wypisz.innerHTML="cos";
     wypisz.innerHTML+="drugi napis";
     wypisz.innerHTML+="<br>";
@@ -13,6 +15,33 @@
     wypisz.innerHTML+="a + b = "+a+b;
     wypisz.innerHTML+="<br>";
     wypisz.innerHTML+="a - b = "+a-b;
+    wypisz.innerHTML+="<br>";
+    wypisz.innerHTML+=c;
+    wypisz.innerHTML+="<br>";
+    wypisz.innerHTML+=d;
+    wypisz.innerHTML+="<br>";
+    console.log("cos1");
+    wypisz.innerHTML+="<br>";
+    console.log("cos2");
+    wypisz.innerHTML+="<br>";
+    console.log("cos3");
+    wypisz.innerHTML+="<br>";
+    console.log("cos4");
+    wypisz.innerHTML+="<br>";
+    console.log("cos5");
+    wypisz.innerHTML+="<br>";
+    console.log("cos6");
+    wypisz.innerHTML+="<br>";
+    console.log("cos7");
+    wypisz.innerHTML+="<br>";
+    console.log("cos8");
+    wypisz.innerHTML+="<br>";
+    console.log("cos9");
+    wypisz.innerHTML+="<br>";
+    console.log("cos10");
+    
+
+
 
 
 
