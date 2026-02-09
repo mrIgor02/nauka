@@ -1,0 +1,9 @@
+<p id="wynik"></p>
+<script>
+    var wypisz=document.getElementById("wynik");
+    wypisz.innerHTML="cos";
+    wypisz.innerHTML+="drugi napis";
+
+
+
+</script>
