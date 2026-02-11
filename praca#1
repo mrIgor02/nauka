@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="wynik"></p>
+    <script>
+        var wypisz=document.getElementById("wynik");
+        var a=10;
+        if(a<0)
+    {
+        wypisz.innerHTML="a jest ujemne i wynosi "+a+"<br>";
+    }
+    else if(a>0)
+    {
+        wypisz.innerHTML="a jest dodatnie i wynosi "+a+"<br>";
+    }
+    else
+    {
+        wypisz.innerHTML="a jest równe 0 <br>";
+    }
+    
+    var b=5;
+    var c=10;
+    var wynik=(b+c);
+
+    if(wynik>0)
+    {
+        wypisz.innerHTML="wynik jest dodatni i wynosi "+wynik+"<br>";
+    }
+    else if(wynik<0)
+    {
+        wypisz.innerHTML="wynik jest ujemny i wynosi "+wynik+"<br>";
+    }
+    else
+    {
+        wypisz.innerHTML="wynik jest równy 0 <br>";
+    }
+    
+
+        
+    </script>
+    
+</body>
+</html>
